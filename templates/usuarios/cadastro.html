@@ -48,7 +48,7 @@
             <section class="galeria" style="margin-left: 5em">
                 <form action="{% url 'cadastro' %}" method="POST">
                     {% csrf_token %}
-                    <div class="row">
+                    <div class="row">   
                         <div class="col-12 col-lg-12" style="margin-bottom: 10px;">
                             <label for="nome_cadastro" style="color:#D9D9D9; margin-bottom: 5px;"><b>Nome completo</b></label>
                             <input type="text" class="form-control" name="nome_cadastro" placeholder="Ex.: João Silva" required>
